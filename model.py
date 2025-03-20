@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 import os
 
-csv_file="dataset from kaggle: mit-plagairism-detection-dataset,jupyter notebook/colab.csv"
+csv_file="/content/data/datset.csv"
 plagiarism_df=pd.read_csv(csv_file)
 plagiarism_df.head(20)
 
